@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh">
+<html lang="zh"  xmlns:wb="http://open.weibo.com/wb">
 <head>
   <meta charset="UTF-8">  
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">  
@@ -10,6 +10,7 @@
   <title>李祺的响应式个人简历 - github.com</title>
   <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
   <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" rel="stylesheet">
+  <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
   <style>
 
 	/* 定义辅助CSS来美化简历头部 */
@@ -104,7 +105,7 @@
     <div class="col-lg-2 col-md-2 col-xs-12">
       <p>
         <!-- 这里定义图片为响应式，并且添加圆角效果，以便保证图片在不同设备上都可以完美显示 //-->
-        <img data-toggle="tooltip" data-placement="left" id="avatar" title="我是Terry" class="img-responsive img-rounded" src="https://avatars3.githubusercontent.com/u/10355060?v=3&s=460" alt="">
+        <img data-toggle="tooltip" data-placement="left" id="avatar" title="我是李祺" class="img-responsive img-rounded" src="https://avatars3.githubusercontent.com/u/10355060?v=3&s=460" alt="">
        </p>
     </div>
   </div>
@@ -183,8 +184,8 @@
         <div class="bbox">
           <h4>个人爱好</h4>
           <p>
-            <span class="glyphicon glyphicon-tree-deciduous"></span> 健身
-            <span class="glyphicon glyphicon-plane"></span> 读书
+            <span class="glyphicon glyphicon-fire"></span> 健身
+            <p> <span class="glyphicon glyphicon-book"></span> 读书</p>
             <p><span class="glyphicon glyphicon-cutlery"></span> 美食</p>
             <p><span class="glyphicon glyphicon-music"></span> 音乐</p>
           </p>
@@ -199,7 +200,7 @@
 
 <!-- 定义简历页底 //-->
 <div class="container">
-  <div class="row"><div class="footer text-center">关注-微博</div></div>
+  <div class="row"><div class="footer text-center"><wb:follow-button uid="5402213082" type="red_1" width="67" height="24" ></wb:follow-button></div></div>
 </div>
 
 <!-- 引入jQuery类库和Bootstrap3的Javascript类库 //-->
